@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include <time.h>
 
 int cameraRead(){
@@ -37,8 +37,21 @@ int cameraRead(){
 
 	whiteMid = white1 + (numwhite/2); //gives us the pixel of the middle white 
 	
-	current_error = 160-whiteMid// how far away the center of the white line is from the center of the camera
+	current_error = 160-whiteMid;// how far away the center of the white line is from the center of the camera
 	
+	if(current_error > 0 ) {
+		//robot needs to turn right
+	}
+	
+	if(current_error < 0 ) {
+		//robot needs to turn left
+	}
+	
+	if(current_error = 0 ) {
+		//robot needs to carry on forward
+	}
+	//chage these values from 0 to a larger number as the current error does not have to be completely perfect.
+
 	
 				
 return 0;  
