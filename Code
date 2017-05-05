@@ -1,0 +1,47 @@
+include <stdio.h>
+#include <time.h>
+
+int cameraRead(){
+	
+	int numWhite = 0;
+	int numDark = 0; 
+	
+	int white1 = 999;
+	int whiteMid = 0;  
+	
+	int p = 0;
+	int s = 0;	
+	
+	int current_error = 0;      
+
+	take_picture();
+	
+				for(int i=0; i<320; i++){
+					
+					p = get_pixel(i,120,3);
+					
+					if(p>100){   
+					s = 1;
+					white++
+						if(i<white1){
+							white1 = i; //gives what pixel the first one to be white
+						}
+					}
+					
+					else{
+					s = 0;
+					dark++;				
+					}
+					printf("%d\n", s); 
+				}
+
+	whiteMid = white1 + (numwhite/2); //gives us the pixel of the middle white 
+	
+	current_error = 160-whiteMid// how far away the center of the white line is from the center of the camera
+	
+	
+				
+return 0;  
+
+}
+
