@@ -9,7 +9,7 @@ int cameraRead(){
 	int white1 = 999;
 	int whiteMid = 0;  
 	
-	int p = 0; // What does s and p do?
+	int p = 0; // What does s and p do? p is the actual number of how white the pixel is, s is the converted number of p to  1(white) or 0(black)
 	int s = 0;	
 	
 	int current_error = 0;      
@@ -22,7 +22,7 @@ int cameraRead(){
 					
 					if(p>100){   
 					s = 1;
-					white++ //Should this be "numWhite?
+					numwhite++ //Should this be "numWhite? yup
 						if(i<white1){
 							white1 = i; //gives what pixel the first one to be white
 						}
@@ -30,7 +30,7 @@ int cameraRead(){
 					
 					else{
 					s = 0;
-					dark++;	//"numDark"?			
+					numdark++;	//"numDark"?	yup		
 					}
 					printf("%d\n", s); 
 				}
