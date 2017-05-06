@@ -5,7 +5,7 @@ Team 4 AVC
 
 ### Week 1: 
 
-- [ ] Create Github repo (Dan)
+- [x] Create Github repo (Dan)
 - [ ] Design and model the chassis and parts required (Jeffrey)
 - [ ] Assemble prototype for testing (Vincent/Jio)
 - [ ] 3D print parts (Jeffrey)
