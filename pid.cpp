@@ -79,8 +79,9 @@ int cameraRead(){
 				}
 				Sleep(0,100000);
 				
-				//Integral
-				total_error = total_error+current_error;
+	                        total_error = total_error+current_error;
+	
+				//Integral				
 				integral_signal = total_error*ki;
 				printf("Integral signal is: %d", integral_signal );
 				
@@ -99,12 +100,11 @@ int cameraRead(){
 				//final signal
 				final_signal = proportional_signal + derivative_signal + integral_signal;
 				
-				whiteMid = white1 + (numwhite/2); //gives us the pixel of the middle white 
 				
-				//current_error = 160-whiteMid;// how far away the center of the white line is from the center of the camera
 				
 				/**if(current_error > 0 ) {
 					//robot needs to turn right
+					set_motor( int motor , int speed )
 				}
 				
 				if(current_error < 0 ) {
