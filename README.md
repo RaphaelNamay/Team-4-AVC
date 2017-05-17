@@ -11,6 +11,7 @@ Team 4 AVC
 - [x] Implement camera sensor code (Dan)
 - [x] Devise an algorithm for robot’s movement  (Tariq)
 
+1.All of our team members performed well against their goal tasks. We set up goals for each team member this week. Changes were made to our individual member tasks, therefore, everyone's roles are more flexible. Jio and Vincent are working on assembling the model. Dan and Tariq are working on the software part and Jeffrey is updating the github. The task list for week 2 and 3 has been updated. All the updated code is on github. Everyone attended all the lab sessions, even working together overtime. We need to attach the sensors to the chassis and Jeffrey will update the github.
 ### Week 2:
 
 - [x] Test code from week 1 (Tariq)
