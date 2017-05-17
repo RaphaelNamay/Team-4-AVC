@@ -6,10 +6,10 @@ Team 4 AVC
 ### Week 1: 
 
 - [x] Create Github repo (Dan)
-- [ ] Design and model the chassis and parts required (Jeffrey)
-- [ ] Assemble prototype for testing (Vincent/Jio)
+- [x] Design and model the chassis and parts required (Jeffrey)
+- [x] Assemble prototype for testing (Vincent/Jio)
 - [x] Implement camera sensor code (Dan)
-- [ ] Devise an algorithm for robot’s movement  (Tariq)
+- [x] Devise an algorithm for robot’s movement  (Tariq)
 
 ### Week 2:
 
