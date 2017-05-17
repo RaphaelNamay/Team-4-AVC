@@ -13,8 +13,8 @@ Team 4 AVC
 
 ### Week 2:
 
-- [ ] Test code from week 1 (Tariq)
-- [ ] 3D print parts (Jeffrey)
+- [x] Test code from week 1 (Tariq)
+- [x] 3D print parts (Jeffrey)
 - [ ] Assemble the final chassis design robot (Vincent/Jio)
 - [ ] Get robot to turn accordingly ( Dan)
 
