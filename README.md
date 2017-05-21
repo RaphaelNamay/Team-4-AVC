@@ -16,14 +16,14 @@ Team 4 AVC
 
 - [x] Test code from week 1 (Tariq)
 - [x] 3D print parts (Jeffrey)
-- [ ] Assemble the final chassis design robot (Vincent/Jio)
-- [ ] Get robot to turn accordingly ( Dan)
+- [x] Assemble the final chassis design robot (Vincent/Jio)
+- [x] Get robot to turn accordingly ( Dan)
 
 ### Week 3:
 
 - [ ] Test progress on software (Tariq)
 - [ ] Open gates (Jeffrey)
-- [ ] Implement PID control (Jio)
+- [x] Implement PID control (Jio)
 - [ ] Deal with T-junctions (Dan)
 - [ ] Update goals, checklist (Vincent)
 
