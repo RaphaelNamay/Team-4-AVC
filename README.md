@@ -1,5 +1,6 @@
 # Team-4-AVC
-Team 4 AVC
+
+### Teams React
 
 ## Checklist 
 
@@ -25,10 +26,12 @@ Everyone completed their tasks this week. The robot hardware has been printed an
 ### Week 3:
 
 - [x] Test progress on software (Tariq)
-- [ ] Open gates (Jeffrey)
+- [x] Open gates (Jeffrey)
 - [x] Implement PID control (Jio)
-- [ ] Deal with T-junctions (Dan)
+- [x] Deal with T-junctions (Dan)
 - [x] Update goals, checklist (Vincent)
+
+Tariq and Dan have been working on Quadrant 3, which is mostly complete with some tweaking required. The pseudocode for the maze has been completed by Jio and Vincent, Jeffrey has 3D printed a new chassis with improved screw holes to mount the plates, and also helped with testing. The gateOpen code has been implemented. Overall, everyone has achieved their tasks for the week, while also completing some extra tasks as required. Everyone showed up to the meeting and lab. 
 
 ### Week 4:
 
