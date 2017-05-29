@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <time.h>
+#include “E101.h”
+
+int main();
+
+init();
+
+int front_sensor;
+int left_sensor;
+int right_sensor;
+
+int near_wall = 0;
+
+while (true){
+
+front_sensor = read_analog(0);
+left_sensor = read_analog(1);
+right_sensor = read_analog(2);
+
+int lrdifference = left_sensor - right_sensor;
+//value increases as sensor approaches wall
+
+if (((lrdifference == 0) && (front_sensor < near_wall)) || ((lrdifference < 0) && (front_sensor < near_wall))){
+//robot moves forward if there are walls left and right, with space ahead OR wall on right with space ahead and left
+
+move(left, right);
+
+}
+
+else if ((front_sensor >= near_wall) && (lrdifference > 0)){
+//robot turns 90 degrees clockwise if there are walls ahead and left, with space right
+
+turnRight();
+
+}
+
+else if ((front_sensor >= near_wall) && (lrdifference < 0)){
+//robot turns 90 degrees anticlockwise if there are walls ahead and right, with space left
+
+turnLeft();
+
+}
+}
+
+
+
+
+
+
+
