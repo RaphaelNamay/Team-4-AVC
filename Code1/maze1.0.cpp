@@ -3,7 +3,9 @@
 #include “E101.h”
 
 // Sensor variables
-int near_wall = 0;
+int near_wall = 550;
+int sensorThresh = 550; 
+int sensorMinThresh = 100;
 int front_sensor;
 int left_sensor;
 int right_sensor;
@@ -54,9 +56,9 @@ void turnRight(){ //change
 
 int sensorRead(){
 for(int i =0; i< 5;i++){
-    front_sensor = front_sensor + read_analog(0);
-    left_sensor = left_sensor + read_analog(1);
-    right_sensor = right_sensor + read_analog(2);
+    front_sensor = front_sensor + read_analog(7);
+    left_sensor = left_sensor + read_analog(6);
+    right_sensor = right_sensor + read_analog(5);
     }
     // Calculates the average of 5 values 
     front_sensor = front_sensor/5;
@@ -73,11 +75,11 @@ for(int i =0; i< 5;i++){
 		//left = sensor_baseSpeed - (sensor_final_signal);
 	  //right = sensor_baseSpeed +(sensor_final_signal);
     
-    printf("Sensor error %.2f \n",sensor_error);
+    		printf("Sensor error %.2f \n",sensor_error);
 		printf("left %.2f \n",(float)left_sensor);
 		printf("right %.2f \n", (float)right_sensor);
 		printf("front %.2f \n", (float)front_sensor);
-    printf("final signal %.2f \n\n\n", sensor_final_signal);
+    		printf("final signal %.2f \n\n\n", sensor_final_signal);
     
   return 0;
 }
@@ -98,15 +100,23 @@ while (true){
 //}
 
    //robot turns 90 degrees clockwise if there are walls ahead and left, with space right
-  if ((front_sensor >= near_wall) && (sensor_error > 0)){
-    turnRight();
+  if ((front_sensor >= near_wall) && (left_sensor >= sensorThresh) && (right_sensor <= sensorMinThresh)){
+    	turnRight();
+	move(28,30);  
     
   }
   
   //robot turns 90 degrees anticlockwise if there are walls ahead and right, with space left
-  if ((front_sensor >= near_wall) && (sensor_error < 0)){
-    turnLeft();
+  if ((front_sensor >= near_wall) && (right_sensor >= sensorThresh) && (left_sensor <= sensorMinThresh)){
+	  turnLeft();
+	  move(28,30);  
   }
+	
+ if ((right_sensor >= sensorThresh) && (left_sensor <= sensorMinThresh)){
+	 
+	  move(30,32);
+	  sleep1(0,500000);  
+  }	
   return 0;
 }
 }
