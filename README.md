@@ -35,10 +35,10 @@ Tariq and Dan have been working on Quadrant 3, which is mostly complete with som
 
 ### Week 4:
 
-- [ ] Test progress on software (Tariq)
-- [ ] Optimise code (Jio)
-- [ ] Implement code for maze nav (Dan)
-- [ ] Update checklist, goals, help with software/Hardware (Vincent)
-- [ ] Refine chassis if necessary, help with maze nav (Jeffrey)
+- [x] Test progress on software (Tariq)
+- [x] Optimise code (Jio)
+- [x] Implement code for maze nav (Dan)
+- [x] Update checklist, goals, help with software/Hardware (Vincent)
+- [x] Refine chassis if necessary, help with maze nav (Jeffrey)
 
 
