@@ -41,4 +41,6 @@ Tariq and Dan have been working on Quadrant 3, which is mostly complete with som
 - [x] Update checklist, goals, help with software/Hardware (Vincent)
 - [x] Refine chassis if necessary, help with maze nav (Jeffrey)
 
+The last week of the project was focused mostly on optimising and testing the robot. All team members stayed overtime over the course of the week. Github has been updated and tasks have been completed. 
 
+### 84% course completed
