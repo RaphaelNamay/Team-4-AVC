@@ -3,27 +3,27 @@
 ### Teams React
 
 ### Team Members: 
-*Roles are flexible
+
 #### Tariq Saiyad - Software Lead
-  -Motor Control
-  -IR sensor control
+  - Motor Control
+  - IR sensor control
   - Testing
 #### Dan Dowden - Software
-  -Motor Control 
-  -Camera sensor navigation
-Networking (Gate control)
-Updating GitHub
-Jeffrey Wong - Hardware
-Designing and modelling parts
-3D printing parts
-Vincent Balina - Hardware/Project management
-Designing parts 
-Robot assembly
-Updating project tasks, checklist, goals
-Jio Namay - Project management/Hardware/Software
-Updating project tasks, checklist, goals
-Robot assembly
-Navigation algorithm
+  - Motor Control 
+  - Camera sensor navigation
+  - Networking (Gate control)
+  - Updating GitHub
+#### Jeffrey Wong - Hardware
+  - Designing and modelling parts
+  - 3D printing parts
+#### Vincent Balina - Hardware/Project management
+  - Designing parts 
+  - Robot assembly
+  - Updating project tasks, checklist, goals
+#### Jio Namay - Project management/Hardware/Software
+  - Updating project tasks, checklist, goals
+  - Robot assembly
+  - Navigation algorithm
 
 
 ## Checklist 
